@@ -1,6 +1,6 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-
+var discovery =  require('./bin/discovery.js');
 var app = module.exports = loopback();
 
 app.start = function() {
